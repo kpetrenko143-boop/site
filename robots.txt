@@ -1,0 +1,12 @@
+# robots.txt для https://kpetrenko143-boop.github.io/site/
+
+# Разрешаем индексацию только Googlebot
+User-agent: Googlebot
+Disallow:
+
+# Запрещаем всем остальным
+User-agent: *
+Disallow: /
+
+# Указываем карту сайта (если есть)
+Sitemap: https://kpetrenko143-boop.github.io/site/sitemap.xml
